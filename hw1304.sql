@@ -1,4 +1,4 @@
-SELECT TOP 10 Stations.Name AS Names, SUM(DailyTotal) AS TotalRidership
+SELECT TOP 10 Stations.Name AS Name, SUM(DailyTotal) AS TotalRidership
 FROM Stations
 INNER JOIN Riderships
     ON Stations.StationID = Riderships.StationID
