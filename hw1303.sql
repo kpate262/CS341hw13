@@ -1,4 +1,4 @@
-SELECT Distinct li.Color AS Li
+SELECT Distinct li.Color AS Color
 FROM Stations s
 INNER JOIN Stops st
     ON st.StationID = s.StationID
